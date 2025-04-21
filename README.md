@@ -16,7 +16,8 @@ A powerful Python-based CLI tool for automating web security testing.
 
 > Example: Scanning for WAF, Directories, SQLi and XSS
 
-![Screenshot](screenshots/result.png)
+![Screenshot](screenshort/result.png)
+![Screenshot](screenshort/result2.png)
 
 ---
 
