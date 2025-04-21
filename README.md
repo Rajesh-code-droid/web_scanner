@@ -32,9 +32,53 @@ A powerful Python-based CLI tool for automating web security testing.
 
 ---
 
-## 🚀 How to Use
+📖 Command Reference
+Command	Description
+-Xr <url>	Run Reflected XSS Scan
+-Xs <url>	Run Stored XSS Scan
+-Xd <url>	Run DOM-Based XSS Scan
+-S <url>	Run SQL Injection Scan
+-F <url>	Run Full Scan (Reflected XSS + SQLi)
+-Ri <domain>	Discover real IP behind WAF/CDN
+-W <domain>	Detect WAF presence on target
+-D <domain>	Run Directory/File Enumeration using default wordlist
+-Dw <domain> <wordlist>	Run Dir/File Enum with a custom wordlist
+-Vo <target>	Scan for Vulnerable Open Cloud (S3) Buckets
+clear	Clear the screen
+help / -h	Show this help menu
+exit	Exit the scanner
+📦 Requirements
 
-```bash
-git clone https://github.com/Rajesh-code-droid/web_scanner.git
-cd web_scanner
-python scanner.py
+    Python 3.8+
+
+    requests
+
+    termcolor
+
+    selenium
+
+    dnspython
+
+    ipwhois
+
+    Google Chrome + Chromedriver
+
+👨‍💻 Author
+
+Rajesh Nandi
+🚀 CEH v12 | 🛠️ Web Developer | 🧪 Cybersecurity Enthusiast
+📫 LinkedIn →
+
+    ⚠️ Disclaimer: This tool is for educational and authorized security testing only. Never scan targets without proper permission.
+    
+---
+
+### ✅ What Changed:
+- Commands now **exactly match** your `-h` output
+- Clear descriptions for each flag
+- Better formatting for ease of reading
+
+Let me know if you'd like:
+- A dark-mode or terminal-themed screenshot to go with this
+- Shields.io badges (like Python version, license, etc.)
+- A GitHub profile README next for your portfolio!
